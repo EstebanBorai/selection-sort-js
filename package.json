@@ -1,0 +1,31 @@
+{
+  "name": "@estebanborai/selection-sort",
+  "version": "0.1.0",
+  "description": "A \"Selection Sort\" algorithm implementation in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "jest:init": "jest --init"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estebanborai/selection-sort-js.git"
+  },
+  "keywords": [
+    "algorithm",
+    "selection-sort",
+    "sorting"
+  ],
+  "author": "Esteban Borai <estebanborai@gmail> (https://github.com/estebanborai)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/estebanborai/selection-sort-js/issues"
+  },
+  "homepage": "https://github.com/estebanborai/selection-sort-js#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@types/jest": "^24.9.0",
+    "jest": "^24.9.0"
+  }
+}
