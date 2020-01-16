@@ -6,7 +6,8 @@ const config = {
 	output: [
 		{
 			file: pkg.main,
-			format: 'esm'
+			format: 'umd',
+			name: 'selection-sort'
 		}
 	],
 	plugins: [

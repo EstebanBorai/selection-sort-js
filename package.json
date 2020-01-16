@@ -1,6 +1,6 @@
 {
   "name": "@estebanborai/selection-sort",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A \"Selection Sort\" algorithm implementation in JavaScript",
   "main": "dist/index.js",
   "scripts": {
