@@ -1,5 +1,12 @@
 import findSmallestIndex from './find-smallest';
 
+/**
+ * 
+ * @param {array} arr - Array of numbers
+ * 
+ * Sorts an array of numbers
+ * 
+ */
 function selectionSort(arr) {
 	const totalItems = Number(arr.length);
 

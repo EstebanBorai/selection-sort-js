@@ -1,5 +1,8 @@
 /**
- * findSmallest finds the smallest element in an array
+ * 
+ * @param {array} arr - Array of numbers
+ * 
+ * Finds the smallest element in an array
  * and returns the index.
  *
  */
