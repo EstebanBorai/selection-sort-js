@@ -8,3 +8,5 @@ test
 .nvmrc
 jest.config.js
 rollup.config.js
+.editorconfig
+.eslintrc
