@@ -1,0 +1,10 @@
+.vscode
+coverage
+node_modules
+src
+test
+.babelrc
+.gitignore
+.nvmrc
+jest.config.js
+rollup.config.js

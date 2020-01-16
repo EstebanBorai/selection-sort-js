@@ -2,10 +2,13 @@
   "name": "@estebanborai/selection-sort",
   "version": "0.1.0",
   "description": "A \"Selection Sort\" algorithm implementation in JavaScript",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "jest --coverage",
-    "jest:init": "jest --init"
+    "build": "rollup -c",
+    "jest:init": "jest --init",
+    "eslint:init": "eslint --init",
+    "pre-commit": "eslint . --ext .js --fix && npm run test"
   },
   "repository": {
     "type": "git",
@@ -16,8 +19,13 @@
     "selection-sort",
     "sorting"
   ],
-  "author": "Esteban Borai <estebanborai@gmail> (https://github.com/estebanborai)",
+  "author": "Esteban Borai <estebanborai@gmail.com> (https://github.com/estebanborai)",
   "license": "MIT",
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run pre-commit"
+    }
+  },
   "bugs": {
     "url": "https://github.com/estebanborai/selection-sort-js/issues"
   },
@@ -26,6 +34,11 @@
     "@babel/plugin-transform-modules-commonjs": "^7.8.3",
     "@babel/preset-env": "^7.8.3",
     "@types/jest": "^24.9.0",
-    "jest": "^24.9.0"
+    "eslint": "^6.8.0",
+    "eslint-plugin-jest": "^23.6.0",
+    "husky": "^4.0.10",
+    "jest": "^24.9.0",
+    "rollup": "^1.29.0",
+    "rollup-plugin-babel": "^4.3.3"
   }
 }
