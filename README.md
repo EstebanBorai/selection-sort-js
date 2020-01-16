@@ -20,7 +20,7 @@ const sorted = selectionSort(items);
 console.log(sorted); // [-1, 0, 2, 6, 8, 10]
 ```
 
-### `findSmallest(arr: Array<number>): number
+### `findSmallest(arr: Array<number>): number`
 Returns the index of the smallest number in the array.
 _This function is used internally by `selectionSort` and exported._
 
