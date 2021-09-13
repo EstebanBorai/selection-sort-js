@@ -32,7 +32,7 @@
   "homepage": "https://github.com/estebanborai/selection-sort-js#readme",
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.8.3",
-    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-env": "^7.15.6",
     "@types/jest": "^24.9.0",
     "eslint": "^6.8.0",
     "eslint-plugin-jest": "^23.6.0",
